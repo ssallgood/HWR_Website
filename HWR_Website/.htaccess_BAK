@@ -1,0 +1,14 @@
+
+RewriteEngine on
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Origin "https://erpnext.com"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
+RewriteCond %{HTTP_HOST} ^hardwarerescue\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hardwarerescue\.com$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/www\.hardwarerescue\.com" [R=301,L]
+
