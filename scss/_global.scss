@@ -10,6 +10,14 @@ html {
   color: fade-out($white, .25);
 }
 
+.text-shadow {
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.text-white-90 {
+  color: rgba(255, 255, 255, .90);
+}
+
 // Custom horizontal rules
 hr.divider {
   max-width: 3.25rem;
@@ -37,5 +45,25 @@ hr.light {
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
+}
+
+// Etc
+.form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+#longabout {
+  display: none;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

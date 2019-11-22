@@ -2,6 +2,7 @@
  * Start Bootstrap - Creative v5.1.4 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/hwr-bootstrap/blob/master/LICENSE)
+ * Edited by Justin 21 Nov 19
  */
 
 /*!
@@ -2051,6 +2052,11 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
   color: #6c757d;
   opacity: 1;
 }
@@ -10453,6 +10459,9 @@ a.text-dark:hover, a.text-dark:focus {
   border: 0;
 }
 
+.text-shadow {
+	text-shadow: 2px 2px 4px #000000;
+}
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -10564,14 +10573,9 @@ html {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.text-shadow {
-  text-shadow: 2px 2px 4px #000000;
-}
-
 .text-white-90 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, .90);
 }
-
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -10597,22 +10601,6 @@ hr.light {
 
 .page-section {
   padding: 5rem 0;
-}
-
-.form-control::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-
-#longabout {
-  display: none;
-}
-
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  background-size: cover;
 }
 
 #mainNav {
@@ -10722,6 +10710,9 @@ header.masthead h1 {
   }
 }
 
+#longabout {
+  display: none;
+}
 #portfolio .container-fluid {
   max-width: 1920px;
 }
@@ -10771,4 +10762,13 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
