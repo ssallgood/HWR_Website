@@ -2,43 +2,61 @@
 
 // Color overrides
 
-// Set a custom color
-// #28a745 - original green
-// Provided from http://colorbrewer2.org
-// Single Hue Greens
-// #e5f5e0 - white green
-// #a1d99b - light green
-// #31a354 - green
-// Multi Hue Greens
-// #e5f5f9
-// #99d8c9
-// #2ca25f
-// Single Hue Blues
-// #deebf7 - white blue
-// #9ecae1 - light blue
-// #3182bd - blue
-// Multi Hue Blues
-// #ece7f2
-// #a6bddb
-// #2b8cbe
-// #2c7fb8
-// Turqoise-ish
-// #1c9099
-// #7fcdbb
-// Single Hue Orange/$brown
-// #fee6ce
-// #fdae6b
-// #e6550d
-// Multi Hue Orange/$brown
-// #fff7bc
-// #fec44f
-// #d95f0e
+// Original colors
+// $green: #28a745 !default;
+// $brown: #5c4d42 !default;
 
-$green: #31a354 !default;
-$brown: #5c4d42 !default;
+$cb_white_green: #e5f5e0;
+$cb_light_green: #a1d99b;
+$cb_green: #31a354;
+$cb_mh_white_green: #e5f5f9;
+$cb_mh_light_green: #99d8c9;
+$cb_mh_green: #2ca25f;
+$cb_white_blue: #deebf7;
+$cb_light_blue: #9ecae1;
+$cb_blue: #3182bd;
+$cb_mh_white_blue: #ece7f2;
+$cb_mh_light_blue: #a6bddb;
+$cb_mh_blue: #2b8cbe;
+$cb_mh_blue2: #2c7fb8;
+$cb_turq: #1c9099;
+$cb_turq2: #7fcdbb;
+$cb_white_orange: #fee6ce;
+$cb_light_orange: #fdae6b;
+$cb_orange: #e6550d;
+$cb_mh_white_orange: #fff7bc;
+$cb_mh_light_orange: #fec44f;
+$cb_mh_orange: #d95f0e;
+$cb_white_gray: #f0f0f0;
+$cb_light_gray: #bdbdbd;
+$cb_gray: #636363;
 
-// Set primary color to orange
-$primary: $green !default;
+$green: #28a745;
+$brown: #5c4d42;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #c994c7;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$success: #d95f0e;
+$info: $cb_blue;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #636363;
+$light-green: #e5f5e0;
+
+$primary: $cb_green !default;
+$secondary: $cb_light_blue  !default;
+$tertiary: $orange  !default; 
+//
 
 // Font overrides
 $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
