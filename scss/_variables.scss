@@ -3,7 +3,38 @@
 // Color overrides
 
 // Set a custom color
-$green: #28a745 !default;
+// #28a745 - original green
+// Provided from http://colorbrewer2.org
+// Single Hue Greens
+// #e5f5e0 - white green
+// #a1d99b - light green
+// #31a354 - green
+// Multi Hue Greens
+// #e5f5f9
+// #99d8c9
+// #2ca25f
+// Single Hue Blues
+// #deebf7 - white blue
+// #9ecae1 - light blue
+// #3182bd - blue
+// Multi Hue Blues
+// #ece7f2
+// #a6bddb
+// #2b8cbe
+// #2c7fb8
+// Turqoise-ish
+// #1c9099
+// #7fcdbb
+// Single Hue Orange/$brown
+// #fee6ce
+// #fdae6b
+// #e6550d
+// Multi Hue Orange/$brown
+// #fff7bc
+// #fec44f
+// #d95f0e
+
+$green: #31a354 !default;
 $brown: #5c4d42 !default;
 
 // Set primary color to orange
