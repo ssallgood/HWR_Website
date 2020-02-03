@@ -27,7 +27,7 @@
     //Execute the request
     $result = curl_exec($ch);
     //Redirect
-    header("Location: /thanks.php");
+    header("Location: /thanks.html");
     exit;
   }
 ?>
