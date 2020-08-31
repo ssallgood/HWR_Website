@@ -36,59 +36,8 @@
 </head>
 
 <body class="landing-page about-us custom-page sidebar-collapse">
-  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="/index.html">Hardware Rescue</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">info</i> About
-            </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="../about-us.html" class="dropdown-item">
-                <i class="material-icons">people</i> Who We Are
-              </a>
-              <a href="../what-we-do.html" class="dropdown-item">
-                <i class="material-icons">computer</i> What We Do
-              </a>
-              <a href="../compare.html" class="dropdown-item">
-                <i class="material-icons">compare</i> Compare
-              </a>
-              <a href="../material-kit-demo.html" class="dropdown-item">
-                <i class="material-icons">vertical_split</i> Theme Demos (admin)
-              </a>
-            </div>
-          </li>
-          <li class="dropdown nav-item">
-            <a href="../contact-us.html" class="nav-link">
-              <i class="material-icons">record_voice_over</i> Contact
-            </a>
-            <!-- <div class="dropdown-menu dropdown-with-icons">
-              <a href="../examples/about-us.html" class="dropdown-item">
-                <i class="material-icons">account_balance</i> Find us
-              </a>
-              <a href="../examples/contact-us.html" class="dropdown-item">
-                <i class="material-icons">art_track</i> Get in touch
-              </a>
-            </div> -->
-          </li>
-          <li class="button-container nav-item iframe-extern">
-            <a href="../purchase.html" class="btn  btn-primary   btn-round btn-block">
-              <i class="material-icons">shopping_cart</i> Buy Now
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+    <?php include('nav_default.php') ?>
   </nav>
 
   <div class="page-header header-tiny header-filter" data-parallax="true" style="background-image: url('./assets/img/bg-masthead-OLD.jpg');">
@@ -106,7 +55,7 @@
   <div class="main main-raised">
     <div class="section text-center pb-1">
       <h2 class="title mt-0">Thanks for your interest in Hardware Rescue</h2>
-      <h4>We will be in touch soon!</h4>
+      <h3>We will be in touch soon!</h3>
       <div class="container">
         <div class="row d-flex">
           <div class="col-md">
@@ -115,16 +64,7 @@
                 <img src="./assets/img/faces/justin.png" alt="Thumbnail Image" class="img img-fluid">
               </div>
               <h4 class="card-title">Justin Delphenich <br>
-                <small class="card-description text-muted">Computer Geek</small>
               </h4>
-              <div class="card-body">
-                <p class="card-description">Grew up with computers, became increasingly frustrated with Windows' cost and limitations, especially when helping elderly family members. Collaborated with Andrew to find a better way</p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-facebook-square"></i></a>
-              </div>
             </div>
           </div>
           <div class="col-md">
@@ -133,123 +73,15 @@
                 <img src="./assets/img/faces/andrew.png" alt="Thumbnail Image" class="img img-fluid">
               </div>
               <h4 class="card-title">Andrew Hadfield<br>
-                <small class="card-description text-muted">Computer Geek/Programmer</small>
               </h4>
-              <div class="card-body">
-                <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>
-              </div>
             </div>
           </div>
         </div>
       <div class="about-services features-2">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">We build awesome products</h2>
-            <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information.</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="info info-horizontal">
-              <div class="icon icon-rose">
-                <i class="material-icons">gesture</i>
-              </div>
-              <div class="description">
-                <h4 class="info-title">1. Design</h4>
-                <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
-                <a href="#pablo">Find more...</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info info-horizontal">
-              <div class="icon icon-rose">
-                <i class="material-icons">build</i>
-              </div>
-              <div class="description">
-                <h4 class="info-title">2. Develop</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                <a href="#pablo">Find more...</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info info-horizontal">
-              <div class="icon icon-rose">
-                <i class="material-icons">mode_edit</i>
-              </div>
-              <div class="description">
-                <h4 class="info-title">3. Make Edits</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                <a href="#pablo">Find more...</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="about-office">
-        <div class="row text-center">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Our office is our second home</h2>
-            <h4 class="description">Here are some pictures from our office. You can see the place looks like a palace and is fully equiped with everything you need to get the job done.</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img class="img-raised rounded img-fluid" alt="Raised Image" src="../assets/img/examples/office2.jpg">
-          </div>
-          <div class="col-md-4">
-            <img class="img-raised rounded img-fluid" alt="Raised Image" src="../assets/img/examples/office4.jpg">
-          </div>
-          <div class="col-md-4">
-            <img class="img-raised rounded img-fluid" alt="Raised Image" src="../assets/img/examples/office3.jpg">
-          </div>
-          <div class="col-md-6">
-            <img class="img-raised rounded img-fluid" alt="Raised Image" src="../assets/img/examples/office5.jpg">
-          </div>
-          <div class="col-md-6">
-            <img class="img-raised rounded img-fluid" alt="Raised Image" src="../assets/img/examples/office1.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="about-contact">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="text-center title">Want some more information?</h2>
-            <h4 class="text-center description">Leave your name and the best way to contact you, and we'll get in touch!</h4>
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="name" class="bmd-label-floating">Your Name</label>
-                    <input type="text" class="form-control">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="email" class="bmd-label-floating">Your Email</label>
-                    <input type="email" class="form-control">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="phone" class="bmd-label-floating">Your Phone</label>
-                    <input type="phone" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 ml-auto mr-auto text-center">
-                  <button class="btn btn-primary btn-round">
-                    Let&apos;s talk
-                  </button>
-                </div>
-              </div>
-            </form>
+            <h3 class="title">Congratulations! You're on your way to a better computer experience.</h3>
+            <h5 class="description">You're going to love being part of the open source revolution!</h5>
           </div>
         </div>
       </div>

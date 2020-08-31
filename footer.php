@@ -20,11 +20,6 @@
             </a>
           </li>
           <li>
-            <a href="./compare.php">
-              Compare
-            </a>
-          </li>
-          <li>
             <a href="./contact-us.php">
               Contact
             </a>
@@ -35,13 +30,13 @@
         <h5>Market</h5>
         <ul class="links-vertical">
           <li>
-            <a href="./purchase.php#faq">
-              Sales FAQ
+            <a href="./compare.php">
+              Compare
             </a>
           </li>
           <li>
-            <a href="#pablo">
-              How to Register
+            <a href="./purchase.php#faq">
+              Sales FAQ
             </a>
           </li>
         </ul>
@@ -50,51 +45,31 @@
         <h5>Legal</h5>
         <ul class="links-vertical">
           <li>
-            <a href="./purchase.php#faq">
-              Transactions FAQ
-            </a>
-          </li>
-          <li>
             <a href="#pablo">
               Terms &amp; Conditions
-            </a>
-          </li>
-          <li>
-            <a href="#pablo">
-              Licenses
             </a>
           </li>
         </ul>
       </div>
       <div class="col-md-3">
-        <h5>Subscribe to Newsletter</h5>
-        <p>
-          Join our newsletter and get occasional bits of news and updates.
-        </p>
-        <form class="form form-newsletter" method="" action="">
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Your Email...">
-          </div>
-          <button type="button" class="btn btn-primary btn-just-icon" name="button">
-            <i class="material-icons">mail</i>
-          </button>
-        </form>
+        <h5>Find Us Online</h5>
+        <ul class="social-buttons">
+          <li>
+            <a href="https://www.facebook.com/Hardware-Rescue-LLC-105882404275675" class="btn btn-just-icon btn-link btn-facebook">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCO_yXp49Hh05n2pXVl_BfkA" class="btn btn-just-icon btn-link btn-youtube">
+              <i class="fa fa-youtube-play"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
   <hr>
-  <ul class="social-buttons">
-    <li>
-      <a href="https://www.facebook.com/Hardware-Rescue-LLC-105882404275675" class="btn btn-just-icon btn-link btn-facebook">
-        <i class="fa fa-facebook-square"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#pablo" class="btn btn-just-icon btn-link btn-youtube">
-        <i class="fa fa-youtube-play"></i>
-      </a>
-    </li>
-  </ul>
+
   <div class="copyright pull-center">Copyright &#xA9;
     <script>
     document.write(new Date().getFullYear())

@@ -27,9 +27,9 @@
 
     form.submit(function (e) {
         e.preventDefault();
-        alert('grecaptcha about to execute');
+        //alert('grecaptcha about to execute');
         grecaptcha.execute(recapWidgetId);
-        alert('grecaptcha executed');
+        //alert('grecaptcha executed');
         //e.submit();
         // form_data = $(this).serialize();
         // $.ajax({
@@ -42,6 +42,6 @@
     });
 })(jQuery);
 function tokenSubmit(token) {
-  alert('about to submit document form ' + token);
+  //alert('about to submit document form ' + token);
   document.getElementById('contact-form').submit();
 }

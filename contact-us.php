@@ -88,7 +88,7 @@ The above copyright notice and this permission notice shall be included in all c
               <i class="material-icons">pin_drop</i>
             </div>
             <div class="description">
-              <h4 class="info-title">Currently Serving</h4>
+              <h4 class="info-title">Headquarters</h4>
               <h5 class="text-muted">Fort Myers, Florida
               </h5>
             </div>
@@ -100,7 +100,7 @@ The above copyright notice and this permission notice shall be included in all c
             <div class="description">
               <h4 class="info-title">Give Us a Call</h4>
               <h5 class="text-muted">(321) 420-4569<br>
-                Mon - Fri, 8:00-5:00
+                Mon - Fri, 9:00-9:00 EST
               </h5>
             </div>
           </div>
@@ -110,7 +110,7 @@ The above copyright notice and this permission notice shall be included in all c
             </div>
             <div class="description">
               <h4 class="info-title">Email Us</h4>
-              <h5 class="text-muted">User the form on the left,<br>
+              <h5 class="text-muted">Use the form on the left<br>
                 or just send an email to:<br>
                 <a href="mailto:info@hardwarerescue.com">info@hardwarerescue.com</a>
               </h5>
@@ -122,8 +122,8 @@ The above copyright notice and this permission notice shall be included in all c
 
     <hr>
     <div class="section">
-      <h2 class="title mt-0 text-center">Don't hesitate, our Florida based team is standing by.</h2>
-      <h4 class="text-muted text-center">There's no matter too big or small. We want to hear from you!</h4><br>
+      <h2 class="title mt-0 text-center">Don't hesitate, our knowledgeable team is standing by.</h2>
+      <h4 class="text-muted text-center">There's no matter too big or too small. We want to hear from you!</h4><br>
         </div>
       </div>
     </div>
