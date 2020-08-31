@@ -26,6 +26,7 @@
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
     <?php include('nav_default.php') ?>
   </nav>
+  
 <header class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/img/bg-masthead.jpg');">
   <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -242,7 +243,7 @@
         </div>
         <hr>
       </div>
-	
+
 
 
 <?php include('footer.php') ?>
