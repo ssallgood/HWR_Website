@@ -1,4 +1,7 @@
-<?PHP
+<?php
+ob_start();
+?>
+<?php
   //Form handler
   if ( $_SERVER['REQUEST_METHOD']=='GET') {
     echo "You cannot access this page directly";
@@ -39,7 +42,7 @@
             //Set the content type to application/json
             curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
             //Execute the request
-            $result = curl_exec($ch);
+            curl_exec($ch);
             //Redirect
             header("Location: /thanks.php");
 
